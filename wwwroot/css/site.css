@@ -1,0 +1,36 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.search, .address{
+    margin-bottom: 30px;
+}
+
+.buttons{
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+.card{
+    padding: 10px;
+}
+
+.card label{
+    width: 30%;
+    padding-bottom: 10px;
+}

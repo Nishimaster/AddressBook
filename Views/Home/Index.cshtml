@@ -1,0 +1,15 @@
+﻿@model AddressBookEntryListViewModel
+
+<partial name="~/Views/Shared/AddressBook/_AddAddress.cshtml" />
+<hr />
+<partial name="_SearchBar" />
+<hr />
+<h2>Address List</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var address in Model.AddressBookEntries)
+    {
+        <partial name="~/Views/Shared/AddressBook/_AddressBookEntryCard.cshtml" model="address" />
+    }
+
+</div>
